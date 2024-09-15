@@ -18,7 +18,6 @@ def deposito(valor):
     retorno = ""
 
     if valor > 0:
-        print("aqui")
         saldo += valor
         mensagem += f"+ Depósito: R$ {valor:.2f}\n"
         extrato += mensagem
